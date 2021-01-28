@@ -5,5 +5,5 @@ import { debounce } from 'throttle-debounce'
 import { useHistory, Link } from 'react-router-dom';
 
 export const UserJoinPage = () => {
-    return (<></>)
+    return (<><h1>회원가입</h1></>)
 }

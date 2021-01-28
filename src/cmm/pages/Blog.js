@@ -97,7 +97,7 @@ export const Blog = () => {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="Blog" sections={sections} />
-        <MainPage>
+        <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
             {featuredPosts.map((post) => (
@@ -113,7 +113,7 @@ export const Blog = () => {
               social={sidebar.social}
             />
           </Grid>
-        </MainPage>
+        </main>
       </Container>
       <Footer title="Footer" description="Something here to give the footer a purpose!" />
     </React.Fragment>
